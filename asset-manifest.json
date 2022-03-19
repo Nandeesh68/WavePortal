@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/WavePortal/static/css/main.7f543deb.css",
+    "main.js": "/WavePortal/static/js/main.2c7a5034.js",
+    "static/js/787.a515818f.chunk.js": "/WavePortal/static/js/787.a515818f.chunk.js",
+    "static/media/WallpaperDog-10946502.jpg": "/WavePortal/static/media/WallpaperDog-10946502.3ad9271d828a3518a298.jpg",
+    "index.html": "/WavePortal/index.html",
+    "main.7f543deb.css.map": "/WavePortal/static/css/main.7f543deb.css.map",
+    "main.2c7a5034.js.map": "/WavePortal/static/js/main.2c7a5034.js.map",
+    "787.a515818f.chunk.js.map": "/WavePortal/static/js/787.a515818f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7f543deb.css",
+    "static/js/main.2c7a5034.js"
+  ]
+}
