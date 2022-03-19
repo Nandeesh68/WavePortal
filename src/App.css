@@ -1,0 +1,111 @@
+body {
+  background-image: url(./assets/WallpaperDog-10946502.jpg);
+  box-sizing: border-box;
+}
+
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 64px;
+}
+
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+}
+
+.header {
+  text-align: center;
+  color: white;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.bio {
+  text-align: center;
+  color: #cad5e2;
+  margin-top: 16px;
+}
+
+.waveButton {
+  font-family: "Courier New";
+  color: #cad5e2;
+  width: 100%;
+  cursor: pointer;
+  margin-top: 16px;
+  padding: 8px;
+  border: 0;
+  border-radius: 5px;
+  background-color: hsl(300, 180%, 19%);
+  backdrop-filter: blur(1.3px);
+}
+
+.waveButton:hover {
+  background-color: rgb(85, 0, 85, 0.7);
+  transition: background-color ease-in-out 100ms;
+}
+
+input {
+  outline: none;
+  color: rgb(255, 255, 255);
+  margin-top: 16px;
+  padding: 8px;
+  font-family: "Courier New";
+  border-radius: 5px;
+  border-color: rgba(255, 255, 255, 0);
+  border-bottom: 2px solid #550055;
+  background-color: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(1.3px);
+}
+
+input:focus {
+  outline: none;
+}
+
+.msglist {
+  color: #cad5e2;
+  background-color: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(1.3px);
+  margin-top: 16px;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+.msglist:last-child {
+  margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+
+  .mainContainer {
+    margin-top: 30px;
+  }
+
+  .dataContainer {
+    max-width: 300px;
+  }
+
+  .bio {
+    font-size: 16px;
+  }
+
+  .waveButton:hover {
+    background-color: rgb(85, 0, 85, 0.7);
+    transition: background-color ease-in-out 100ms;
+  }
+
+  input {
+    height: 25px;
+  }
+
+  .msglist {
+    font-size: 15px;
+    word-wrap: break-word;
+  }
+}
